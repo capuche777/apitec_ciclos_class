@@ -47,10 +47,41 @@ while (i<=100) {
     }
 }*/
 
-var i = 100;
+/*var i = 100;
 while (i>0) {
     if (i % 2 !== 0) {
         console.log(i);    
     }
     i--;
+}*/
+
+/*calcular el promedio de 3 notas para N cantidad
+de estudiantes, se debe solicitar el numeroo n con for y while*/
+
+/*var estudiantes = Number(prompt('Que cantidad de estudiantes desea calcular'));
+var promedio;
+
+for (var i = 1; i<=estudiantes; i++){
+    var nota = 0;
+    for (var j = 1; j <= 3; j++) {
+        var ingreso = Number(prompt(`Ingrese la nota ${j} de estudiante ${i}`));
+        nota = nota+ingreso;
+    }
+    promedio=nota/3;
+    alert(`El promedio es ${promedio}`);
+}*/
+
+/*Switch Case: en caso de*/
+
+var nombre;
+switch (nombre) { //variable a evaluar entre parentesis
+    case "Julio": console.log(1);
+        break;
+
+    case "Jeremias": alert(2);
+        break;
+    case "Carlos": alert(3);
+        break;
+    default: alert(4);
+        break;
 }
