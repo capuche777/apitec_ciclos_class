@@ -41,6 +41,19 @@ while (i<=100) {
     i++
 }*/
 
+for (var base = 1;base <= 12; base++ ){
+    for (var mult = 1; mult <= 12; mult++) {
+        var result = mult*base;
+        console.log(`${base} X ${mult} = ${result}`);
+    }
+    for (var mult = 1; mult <= 12; mult++) {
+        var result = mult*base;
+        if (base % 2 == 0 || mult % 2 == 0) {
+            console.log(`${base} X ${mult} = ${result}`);
+        }
+    }
+}
+
 /*for (var i = 100; i>0; i--) {
     if (i % 2 !== 0) {
         console.log(i);
@@ -53,6 +66,12 @@ while (i>0) {
         console.log(i);    
     }
     i--;
+}*/
+
+/*for (var i = 0; i < 10; i++) {
+    var mult = 4;
+    var result = i*mult;
+    console.log(`${i} x ${mult} = ${result}`);
 }*/
 
 /*calcular el promedio de 3 notas para N cantidad
@@ -73,7 +92,7 @@ for (var i = 1; i<=estudiantes; i++){
 
 /*Switch Case: en caso de*/
 
-var nombre;
+/*var nombre = 'Carlos';
 switch (nombre) { //variable a evaluar entre parentesis
     case "Julio": console.log(1);
         break;
@@ -84,4 +103,4 @@ switch (nombre) { //variable a evaluar entre parentesis
         break;
     default: alert(4);
         break;
-}
+}*/
